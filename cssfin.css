@@ -1,0 +1,127 @@
+body{
+margin: 0;
+    font-family: "Roboto", sans-serif;
+    background-color: #331e42;
+}
+.korobka{
+    height: 99vh;
+    margin: 15px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero{
+    background-color: #331e42;
+    display: flex;
+    color: #B4A5A5;
+    height: 99vh;
+}
+h1{
+    font-size: 100px;
+    margin: 15px 0 15px 0;
+}
+h2{
+    font-size: 30px;
+    margin: 0;
+}
+img{
+    position: absolute;
+    z-index: 3;
+    width: 700px;
+    height: 700px;
+    border-radius: 100%;
+    left: 1100px;
+    top: 220px;
+}
+.krug{
+    z-index: 1;
+    top: 105px;
+    left: calc(50% + 50px);
+    position: absolute;
+    width: 900px;
+    height: 900px;
+    background: rgb(60,65,92);
+    background: linear-gradient(90deg, rgba(60,65,92,1) 0%, rgba(51,30,66,1) 81%);   
+    border-radius: 100%;   
+}
+.prizrak{
+    width: 80px;
+    position: absolute;
+}
+.top200{
+    top: 200px;
+}
+.top300{
+    top: 300px;
+}
+.top400{
+    top: 400px;
+}
+.top500{
+    top: 500px;
+}
+.top600{
+    top: 600px;
+}
+.navbar{
+    background: rgb(180,165,165);
+background: linear-gradient(180deg, rgba(180,165,165,1) 21%, rgba(51,30,66,1) 75%);
+    color: #B4A5A5;
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+    height: 100px;
+    color: ;
+}
+.logo{
+    font-size: 30px;
+    margin: 0 50px 0 50px;
+}
+.link{
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 0 0 50px;
+}
+.Myskills{
+    font-size: 150px;
+    color:#B4A5A5;
+    margin-left: 410px;
+
+}
+.skill{
+   display: flex;
+   width: 100%;
+   margin-left: 210px;
+
+}
+.skills{
+    font-size: 70px;
+    color:#B4A5A5;
+
+}
+.pstolb{
+    margin-left: 100px;
+}
+.obomne{
+    font-size: 40px;
+    color:#B4A5A5;
+    text-align: center;
+}
+.pipi{
+    font-size: 150px;
+    color:#B4A5A5;
+    margin-left: 520px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+}
+.section img {
+  max-width: 100%;
+}
+.section {
+  flex-grow: 1;
+  border: 1px solid black;
+  padding: 20px;
+}
